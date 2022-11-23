@@ -285,11 +285,11 @@ main section article ul a:hover{
 footer{
     grid-area: footer;
     background-color: #a43333;
-    height: 30vh;
+    height: 40vh;
    
 }
 #main-footer {
-    display: flex;
+    display: block;
     justify-content: space-between;
     text-align: left; 
     margin: 20px 19rem;
@@ -316,28 +316,31 @@ footer{
 #main-footer a{
     text-decoration: none;
     color: #fff;
-        
+    
 }
 
 #main-footer a:hover{
-    text-decoration: underline;
-    color: #fff;
+    color: #30475E;
         
 }
 #main-footer h2{
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #fff;
-    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+
  } 
+.snarveier ul{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons-footer{
+    display: flex;
+    justify-content: space-around;
+}
 
-
-
-
- footer section h3{
-    text-align: center;
-    border-top: 2px solid #fff;
-    padding-top: 15px;
-    color: #fff;
- }
-
+.social-icons-footer a{
+    font-size: 2rem;
+    padding: 1rem;
+}
