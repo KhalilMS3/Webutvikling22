@@ -22,4 +22,4 @@ const showMenu = () => {
     }
 }
 
-MyFunction(windoWidth)
+

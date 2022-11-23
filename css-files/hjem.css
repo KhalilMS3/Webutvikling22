@@ -18,7 +18,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 70px 500px auto 90px;
 }
-#menu-bars{
+nav #menu-bars{
     display: none;
 }
 nav{ 
@@ -38,7 +38,7 @@ nav h3 a{
 }
 
 nav ul{
-    display: flex ;
+    display: flex;
     flex-wrap: wrap;
     list-style: none;
     gap: 2rem;
