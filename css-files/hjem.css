@@ -85,7 +85,7 @@ header{
     grid-area: header;
     /* bildet src: bildet hentet fra https://getwaves.io/ wave-generator*/
     background-size: cover;
-    background-image: url("../img/wave\ \(2\).svg"); 
+    background-image: url("../img/wave2.svg"); 
     background-position: 50%;
     display: flex;
     align-items: center;

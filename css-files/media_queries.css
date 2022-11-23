@@ -1,3 +1,4 @@
+/* ------------- MAX-WIDTH: 800PX ------------- */
 @media screen and (max-width:800px){
     .container{
         display: grid;
@@ -226,24 +227,7 @@
         margin: auto;
         padding: 25px;
     }
-    /* #page-menu{
-        display: block;
-        position: absolute;
-        width: 100%;
-        left: 0;
-        top: 50px;
-        height: 100%;
-        background-color: #a43333;
-
-    }
-    #page-menu li{
-        font-size: 2rem;
-        color: #fff;
-        font-weight: bold;
-        margin: auto;
-        padding: 25px;
-        
-    } */
+ 
     nav ul a{
         display: inline-block;
         padding: 20px;
@@ -264,48 +248,85 @@
     /* ---HEADER--- */
     header{
         grid-area: header;
-        background-position: 45%;
-        animation: none;
+        background-position: 35%;
     }
     header section{
         width: 70%;
+        margin: 20px -10px;
         
     }
     header section h1{
         color: #fff;
-        font-size: 2.8rem;
-        margin-top: 20px;
+        font-size: 3rem;
+        margin-top: -27px;
     }
     header section p{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         margin: 0;
-        padding: 30px 0;
+        padding: 70px 0;
         margin-top: 50px;
     }
     /* content page header */
-    content-page-header{
+    .content-page-header{
         color: #fff;
-        margin-top: 15px;
-    }
+        font-size: 4rem; 
+        text-align: center;
+        margin-left: 18rem;
+   }
     
-
-
-/* ---MAIN--- */
     main{
         grid-area: main;
         width: 100%;
     }
 
-   .intro-section{
+    .intro-section{
         width: 70%;
+        margin: 15px 60px;
     
     }
     .intro-section h2{
-        font-size: 3rem;
+        font-size: 2.9rem;
     }
     .intro-section p{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
+    #kontakt-btn-main a{
+        font-size: 2rem;
+
+    }
+    .artikkel-section{
+        display: block;
+        margin: 30px 10px;
+    }
+    .artikkel-section h2 {
+        font-size: 2.9rem;
+        margin: 39px 54px;
+    }
+
+    .artikkel-section article{
+        margin: auto;
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    main section article img{
+        padding-top: 5%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .artikkel-section article ul li h3{
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+
+    main section article ul li p{
+        font-size: 25px;
+    }
+
+    main section article ul li a{
+        font-size: 35px;
+    }
+
 
 /* innholdsider */
 
@@ -330,6 +351,15 @@
         padding: 0; 
     }
 
+    /* Tabeller */
+    .row h5{
+        font-size: 1rem;
+    }
+    /* Kontakt siden */
+    .kontakt-card h3{
+        font-size: 1.72rem;
+    }
+
 
 /* ---FOOTER--- */
     footer{
@@ -351,17 +381,22 @@
     }
 
     #main-footer ul li{
-        font-size: 1.5rem;
-
+        font-size: 2rem;
     }
     .kontakt-oss ul{
         display: inline-block;
         margin: 0;
         padding: 0;
     }
-
+    .snarveier{
+        margin-bottom: 10rem;
+    }
     .snarveier ul{
-        display: block;
+        display: flex;
+        margin-bottom: 50px;
+    }
+    .social-icons-footer a{
+        font-size: 4rem;
     }
 
 }
