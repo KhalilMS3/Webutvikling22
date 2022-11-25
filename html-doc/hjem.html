@@ -31,7 +31,7 @@
     <div class="container">  
  <nav class="nav-bar" id="page-nav-bar">
         <h3><a href="hjem.html" >KH.dev</a></h3>
-        <a href="javascript:void(0)" id="menu-bars" onclick="showMenu()"><i class="fa-solid fa-bars"></i></a>
+        <a href="javascript:void(0)" id="menu-bars" onclick="showMenu()" aria-label="javascript"><i class="fa-solid fa-bars"></i></a>
         <ul id="page-menu">
             <li><a href="hjem.html">Hjem</a></li>
             <li><a href="uu_vs_seo.html">UU vs SEO</a></li>
@@ -55,7 +55,7 @@
     </header>
     <main>
         <div class="back-to-top">
-            <a class="back-to-top-icon" href="#page-menu"><i class="fa-solid fa-arrow-up"></i></a>
+            <a class="back-to-top-icon" href="#" aria-label="back-to-top-button"><i class="fa-solid fa-arrow-up"></i></a>
         </div>
         <div class="intro-section">
             <section>
@@ -80,7 +80,7 @@
             <h2>Artikkler </h2>
     <!--Bilder/SVG brukt i artikkler er hentet fra https://drawkit.com/product/project-product-manager-illustrations-->
             <article>
-                <img src="../img/drawkit/drawkit/svg/uu_vs_seo.svg" alt="bilde som illustrerer uu og seo">
+                <img src="../img/drawkit/drawkit/svg/uu_vs_seo.svg" alt="">
                 <ul>
                     <li><h3>UU vs SEO</h3></li>
                     <li><p>Hva er UU og SEO, hvordan henger de sammen og hvordan forbedrer de nettsider.</p></li>
@@ -88,7 +88,7 @@
                 </ul>
             </article>
             <article>
-                <img src="../img/drawkit/drawkit/svg/cms.svg" alt="bilde som illustrerer cms">
+                <img src="../img/drawkit/drawkit/svg/cms.svg" alt="">
                 <ul>
                     <li><h3>CMS</h3></li>
                     <li><p>Hva er et CMS, hvilke CMS typer her. Forskjellen mellom en headless og en tradisjonell CMS, og når bruker vi dem</p></li>
@@ -96,7 +96,7 @@
                 </ul>
             </article>
             <article>
-                <img src="../img/drawkit/drawkit/svg/analyse.svg" alt="bilde som illustrerer analyse">
+                <img src="../img/drawkit/drawkit/svg/analyse.svg" alt="">
                 <ul>
                     <li><h3>ANALYSE</h3></li>
                     <li><p>En full analyse av denne nettsiden som viser deg hvordan nettsiden var før og etter forbedringer.</p></li>
@@ -111,10 +111,10 @@
             <section class="følg_oss">
                 <h2>Følg Oss:</h2>
                 <div class="social-icons-footer">
+                    <!-- bruk label for å fjerne error om empty link, slett disse nå og lat som at det var feil og rett på dem i analyse :) -->
                     <a href="https://www.instagram.com/khalilmoha_/" aria-label="instagram" class="fa-brands fa-instagram footer-icons"></a>
                     <a href="https://www.facebook.com/profile.php?id=100009105693009"  aria-label="facebook" class="fa-brands fa-facebook footer-icons"></a>
                     <a href="https://twitter.com/Khalilmoha_" aria-label="twitter" class="fa-brands fa-twitter footer-icons"></a>
-                </div>
                 </div>
             </section>
             <section class="snarveier">

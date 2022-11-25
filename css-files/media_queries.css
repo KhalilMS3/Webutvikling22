@@ -398,6 +398,9 @@
     .social-icons-footer a{
         font-size: 4rem;
     }
+    .kontakt-footer{
+        display: block;
+    }
 
 }
 
