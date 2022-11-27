@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <meta name="description" content="innholdside, Analyse av hele nettstedet">
+
+     <!-- Social card FACEBOOK -->
+     <meta property="og:url"           content="https://itstud.hiof.no/~kmsfouk/web2022-deleksamen03/html-doc/analyse.html">
+     <meta property="og:title"         content="Analyse">
+     <meta property="og:description"   content="En full analyse av nettstedet">
+     <meta property="og:image"         content="https://itstud.hiof.no/~kmsfouk/web2022-deleksamen03/img/Logo.png">
+
+     <!-- Social card TWITTER -->
+     <meta property="twitter:url"           content="https://itstud.hiof.no/~kmsfouk/web2022-deleksamen03/html-doc/analyse.html">
+     <meta property="twitter:title"         content="Analyse">
+     <meta property="twitter:description"   content="En full analyse av nettstedet">
+     <meta property="twitter:image"         content="https://itstud.hiof.no/~kmsfouk/web2022-deleksamen03/img/Logo.png">
     
-    <link href="../font/fontawesome-free-6.2.0-web/css/fontawesome.css" rel="stylesheet">
-    <link href="../font/fontawesome-free-6.2.0-web/css/brands.css" rel="stylesheet">
-    <link href="../font/fontawesome-free-6.2.0-web/css/solid.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../css-files/hjem.css">
     <link rel="stylesheet" href="../css-files/content-pages.css">
     <link rel="stylesheet" href="../css-files/media_queries.css">
+    <link rel="stylesheet" href="../css-files/tabell.css">
     <link rel="icon" type="image/x-icon" href="../img/Logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     <title>Analyse</title>
 </head>
@@ -22,7 +32,7 @@
     <div class="container">
     <nav>
         <h3><a href="hjem.html">KH.dev</a></h3>
-        <a href="javascript:void(0)" id="menu-bars" onclick="showMenu()"><i class="fa-solid fa-bars"></i></a>
+        <a href="javascript://" id="menu-bars" onclick="showMenu()"><i class="fa-solid fa-bars"></i></a>
         <ul id="page-menu" >
             <li><a href="hjem.html">Hjem</a></li>
             <li><a href="uu_vs_seo.html">UU vs SEO</a></li>
@@ -38,20 +48,124 @@
             <h1 class="content-page-header">
                 Analyse
             </h1>
-            
+            <p>I analysen ble lighthouse brukt hovedsakelig for å sjekke statusen på de ulike delene, 
+                Performance, Accessibility, Best Practices og  SEO</p>
         </section>
-        
     </header>
     <main>
-      <section>
-        <h3>
-            Chill, og ta det med ro
-        </h3>
-        <p>
-            alle innholdsidene er fortsatt under utvikling go vil ta litt tid til å bli ferdig. <br>
-            takk for tålmodigheten :)
-        </p>
-      </section>
+       <!-- TODO: en div med snarveier lenker som sender brukeren til de ulike analyse delene i siden, tabell erklærlings...  -->
+       <h2 class="analyse-headers">Analyse tabell</h2>
+       <p class="analyse-paragraphs">Tabellen under inneholder før og etter resultater av statusen til de ulike delene</p>
+       <div id="tabell">
+            <div id="tabell-header">
+                <div  role="heading" aria-label="tabel-heading"><h3>Side</h3></div>
+                <div  role="heading" aria-label="tabel-heading"><h3>Før</h3></div>
+                <div  role="heading" aria-label="tabel-heading"><h3>Etter</h3></div>
+                <div  role="heading" aria-label="tabel-heading"><h3>Endring</h3></div>
+                
+            </div>
+            <div class="row" id="row-1">
+                <div class="row-title"><h3>Hjemmeside</h3></div>
+                <div class="row-content responsiv-row"><h3>Før</h3></div>
+                <div class="row-content">
+                    <img class="analyse_bilde" src="../img/analyse-bilder/hjemmeside_før.png" alt="Et bildet som viser resultater av statusen til Performance, Accessibility, Best Practices og  SEO før forbedringer (hjemmeside)">
+                </div>
+                <div class="row-content responsiv-row"><h3>Etter</h3></div>
+                <div class="row-content">
+                    <img class="analyse_bilde" src="../img/analyse-bilder/hjemmeside_etter.png" alt="Et bildet som viser resultater av statusen til Performance, Accessibility, Best Practices og  SEO etter forbedringer (hjemmeside)">
+                </div>
+                <div class="row-content responsiv-row"><h3>Endring</h3></div>
+                <div class="row-content">
+                    <p>Ting som ble endret for å forbedre Best Practice og Performance er at font awosome mappa som inneholder
+                        flere css filer slik at vi kan ta i bruk ikoner ble erstattet med en dirkete lenke. 
+                        Denne mappa påvirket nedlastningen av nettsiden ettersom at den innholdet for mange css filer relatert til ikoner. 
+                        hamburger meny ikonet som blir brukt i mobil versjonen var i a taggen, href ble endret fra "javascript:void(0)" til "javascript://" dette har forbedret SEO ettersom at lenken nå er crawlable
+                        </p>
+                </div>
+            </div>
+            <div class="row" id="row-2">
+                <div class="row-title"><h3>UU vs SEO</h3></div>
+                <div class="row-content responsiv-row"><h3>Før</h3></div>
+                <div class="row-content">
+                    <img class="analyse_bilde" src="../img/analyse-bilder/uu_vs_seo_før.png" alt="Et bildet som viser resultater av statusen til Performance, Accessibility, Best Practices og  SEO etter forbedringer (uu vs seo side)">
+                    
+                </div>
+                <div class="row-content responsiv-row"><h3>Etter</h3></div>
+                <div class="row-content">
+                    <img class="analyse_bilde" src="../img/analyse-bilder/uu_vs_seo_etter.png" alt="Et bildet som viser resultater av statusen til Performance, Accessibility, Best Practices og  SEO etter forbedringer (uu vs seo side)">
+
+                </div>
+                <div class="row-content responsiv-row"><h3>Endring</h3></div>
+                <div class="row-content">
+                    <p>
+                        Endringen som forbedret Accessibility og som samtidig 
+                        forbedret SEO og Best Practices var endring av fargen på
+                         delingsknapper, hvor kontrasten mellom bakgrunn og forgrunn ble endret. 
+                         I tillegg header i tabellen fikk role=, noe som forbedret Accessibilty, Best Practices og SEO.
+                    </p>
+                </div>
+            </div>
+            <div class="row" id="row-3">
+                <div class="row-title"><h3>CMS</h3></div>
+                <div class="row-content responsiv-row"><h3>Før</h3></div>
+                <div class="row-content">
+                    <img class="analyse_bilde" src="../img/analyse-bilder/cms_før.png" alt="Et bildet som viser resultater av statusen til Performance, Accessibility, Best Practices og  SEO etter forbedringer (cms side)">
+
+                </div>
+                <div class="row-content responsiv-row"><h3>Etter</h3></div>
+                <div class="row-content">
+                    <img class="analyse_bilde" src="../img/analyse-bilder/cms_etter.png" alt="Et bildet som viser resultater av statusen til Performance, Accessibility, Best Practices og  SEO etter forbedringer (cms side)">
+
+                </div>
+                <div class="row-content responsiv-row"><h3>Endring</h3></div>
+                <div class="row-content">
+                    <p>Endringer som forbedert accessibility er som følger: Tidligere role= som ble lagt til header til tabellen manglet aria-label, og den ble derfor lagt til
+                        kontrasten i bakgrunnsfargen og tekst fargen i tabellen hvor likheter og ulikheter ble endret og fikk "pass" i A, AA, AAA nivåene. <br>
+                        Ting som påvirket SEO var at rekkefølgen av h1-h6 som ble brukt i siden var ikke semantisk, altså det var for eksempel en hopp fra h1 til h3. Dette ble endret og rekkefølgen ble semantisk.
+                         I tillegg til hamburger meny ikonet som blir brukt i mobil versjonen var i a taggen, href ble endret fra "javascript:void(0)" til "javascript://" dette har forbedret SEO ettersom at lenken nå er crawlable.
+
+                    </p>
+                </div>
+            </div>
+            <div class="row" id="row-4">
+                <div class="row-title"><h3>Analyse</h3></div>
+                <div class="row-content responsiv-row"><h3>Før</h3></div>
+                <div class="row-content">--</div>
+                <div class="row-content responsiv-row"><h3>Etter</h3></div>
+                <div class="row-content">--</div>
+                <div class="row-content responsiv-row"><h3>Endring</h3></div>
+                <div class="row-content">--</div>
+            </div>
+            <div class="row" id="row-5">
+                <div class="row-title"><h3>Kontakt oss</h3></div>
+                <div class="row-content responsiv-row"><h3>Før</h3></div>
+                <div class="row-content">
+                    <img class="analyse_bilde" src="../img/analyse-bilder/kontakt_oss_før.png" alt="Et bildet som viser resultater av statusen til Performance, Accessibility, Best Practices og  SEO etter forbedringer (kontakt oss side)">
+
+                </div>
+                <div class="row-content responsiv-row"><h3>Etter</h3></div>
+                <div class="row-content">
+                    <img class="analyse_bilde" src="../img/analyse-bilder/kontakt_oss_etter.png" alt="Et bildet som viser resultater av statusen til Performance, Accessibility, Best Practices og  SEO etter forbedringer (kontakt oss side)">
+                </div>
+                <div class="row-content responsiv-row"><h3>Endring</h3></div>
+                <div class="row-content">
+                    <p>
+                        Frame taggen som ble bruk for å hente inn kart som viser addressen til HIOF fikk en title. 
+                        I tillegg ble en aria-label lagt til i textarea som er en del av kontakt skjema.
+                        rekkefølgen av h1-h6 som ble brukt i siden var ikke semantisk, altså det var en hopp fra h1 til h3. Dette ble endret og rekkefølgen ble semantisk.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="seperator"></div>
+
+        <section>
+            <h2 class="analyse-headers">Tilgjengelighetserklæring</h2>
+            <p class="analyse-paragraphs">Tilgjengelighetserklæring er representert i form av en tabell med de 12 retningslinjene
+                som finnes. I tabellen står det hvilken suksesskriterier som ble sjekket og hvilken er oppfylt. Du kan 
+                lese erklærlingen ved å <a id="link-to-erklæring" href="#">trykke her!</a>
+            </p>
+        </section>
     </main>
     <footer>
         <div id="main-footer">

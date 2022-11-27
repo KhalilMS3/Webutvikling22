@@ -16,7 +16,7 @@ body{
                           "main main main"
                           "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 70px 500px auto 90px;
+    grid-template-rows: 70px 500px auto auto;
 }
 nav #menu-bars{
     display: none;

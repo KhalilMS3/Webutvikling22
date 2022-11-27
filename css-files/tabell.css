@@ -4,6 +4,8 @@
                           "row-1 row-1 row-1"
                           "row-2 row-2 row-2"
                           "row-3 row-3 row-3"
+                          "row-4 row-4 row-4"
+                          "row-5 row-5 row-5"
                           ;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 70px 70px 70 70px;
@@ -67,7 +69,7 @@
     
 }
 
-.row-content h5{
+.row-content h4{
     width: fit-content;
     border-bottom: 3px solid #a43333;
 }
@@ -86,7 +88,7 @@
     font-size: 1.2rem;
 }
 .ulikheter{
-    border-bottom: 3px solid #f74242;
+    border-bottom: 3px solid #ffacac;
     width: fit-content;
     font-size: 1.2rem;
 }
@@ -134,6 +136,12 @@ padding: 0 2px;
 #row-3{
     grid-area: row-3;
 }
+#row-4{
+    grid-area: row-4;
+}
+#row-5{
+    grid-area: row-5;
+}
 
 @media screen and (max-width:800px) {
     #tabell{
@@ -142,6 +150,8 @@ padding: 0 2px;
                               "row-1"
                               "row-2"
                               "row-3"
+                              "row-4"
+                              "row-5"
                               ;
         grid-template-columns: repeat(auto-fill, minmax(768px, 3fr));
         width: 50%;
@@ -179,6 +189,16 @@ padding: 0 2px;
         display: block;
         margin-top: 2px;
         
+    }
+    #row-4{
+        grid-area: row-4;
+        display: block;
+        margin-top: 2px;
+    }
+    #row-5{
+        grid-area: row-5;
+        display: block;
+        margin-top: 2px;
     }
     #tabell-header div{
         margin: auto;

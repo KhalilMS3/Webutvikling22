@@ -144,14 +144,9 @@
         font-size: 1.5rem;
 
     }
-    .kontakt-oss ul{
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
 
     .snarveier ul{
-        display: block;
+        display: flex;
     }
 
     footer section h3{
@@ -383,16 +378,12 @@
     #main-footer ul li{
         font-size: 2rem;
     }
-    .kontakt-oss ul{
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
+
     .snarveier{
         margin-bottom: 10rem;
     }
     .snarveier ul{
-        display: flex;
+        display: block;
         margin-bottom: 50px;
     }
     .social-icons-footer a{

@@ -74,7 +74,7 @@ header section h1{
     padding-left: 20px;
 }
 
-.kontakt-card h3{
+.kontakt-card h2{
     font-size: 2.5rem;
     color: #30475E;
     margin: 0;
@@ -133,7 +133,7 @@ textarea{
     background-color: #5162816c;
 }
 
-#inquiry{
+#submit{
     display: block;
     width: 100px;
     padding: 10px;
@@ -173,13 +173,43 @@ input:focus, textarea:focus{
 }
 
 .facebook-btn{
-    background-color: #4267B2;
+    background-color: #962f2f;
 }
 .twitter-btn{
-    background-color: #1DA1F2;
+    background-color: #962f2f;
 
 }
-.fa-brands.fa-facebook, .fa-twitter{
+.fa-brands.fa-facebook, .fa-twitter, .fa-pinterest {
     padding-right: 10px;
     color: #fff;
+}
+
+
+/* ANALYSE siden */
+header section p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+.analyse-headers{
+    font-size: 2rem;
+    margin: 30px 60px;
+    margin-top: 70px;
+    color: #000;
+}
+.analyse-paragraphs{
+    font-size: 1.5rem;
+    margin: 0 60px;
+    padding-top: 0;
+}
+.analyse_bilde{
+    max-width: 100%;
+    height: auto;
+}
+#link-to-erklæring{
+    font-size: 1.5rem;
+    color: #a43333;
+    font-weight: bold;
+}
+#link-to-erklæring:hover{
+    color: #30475E;
 }
