@@ -161,7 +161,6 @@ input:focus, textarea:focus{
 
 
 .social-share-buttons{
-    
     width: 50%;
 }
 .share-btn{
@@ -172,13 +171,10 @@ input:focus, textarea:focus{
     border-radius: 5px;
 }
 
-.facebook-btn{
+.facebook-btn,.twitter-btn{
     background-color: #962f2f;
 }
-.twitter-btn{
-    background-color: #962f2f;
 
-}
 .fa-brands.fa-facebook, .fa-twitter, .fa-pinterest {
     padding-right: 10px;
     color: #fff;
