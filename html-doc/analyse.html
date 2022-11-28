@@ -48,11 +48,27 @@
             <h1 class="content-page-header">
                 Analyse
             </h1>
-            <p>I analysen ble lighthouse brukt hovedsakelig for å sjekke statusen på de ulike delene, 
-                Performance, Accessibility, Best Practices og  SEO</p>
         </section>
     </header>
     <main>
+        <div class="back-to-top">
+            <a class="back-to-top-icon" href="#" aria-label="This button scrolls to the top of the page"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+        <section id="analyse-main">
+            <h2 class="analyse-headers">Hvordan ble nettstedet analysert?</h2>
+            <p class="analyse-paragraphs">For analysen av statusen på de ulike delene, 
+                Performance, Accessibility, Best Practices og  SEO ble lighthouse bruk. 
+                Mens for struktur, semantikk og kontrast ble <a href="https://wave.webaim.org/">wave.webaim.org</a> verktøyet brukt. 
+                For validering av kode ble <a href="https://validator.w3.org/">validator.w3.org</a> verktøyet brukt. <br>
+                Dette vil si at alt av errors og warnings i koden ble rettet basert på valideringen i validator.w3.org. 
+                Mens sjekking av symantikk av koden ble sjekket i wave.webaim.org og endret basert på feil dukket i verktøyet. <br>
+                For farge kontrast ble Chrome-utvidelsen <a href="https://colourcontrast.cc/">Colour Contrast Checker</a> brukt for å sjekke om fargene som er brukt 
+                i nettstedet har bra kontrast når det gjelder bak- og forgrunn (feks. tekster som har en bakgrunnfarge).
+            </p>
+        </section>
+
+        <div class="seperator"></div>
+
        <!-- TODO: en div med snarveier lenker som sender brukeren til de ulike analyse delene i siden, tabell erklærlings...  -->
        <h2 class="analyse-headers">Analyse tabell</h2>
        <p class="analyse-paragraphs">Tabellen under inneholder før og etter resultater av statusen til de ulike delene</p>
@@ -163,7 +179,7 @@
             <h2 class="analyse-headers">Tilgjengelighetserklæring</h2>
             <p class="analyse-paragraphs">Tilgjengelighetserklæring er representert i form av en tabell med de 12 retningslinjene
                 som finnes. I tabellen står det hvilken suksesskriterier som ble sjekket og hvilken er oppfylt. Du kan 
-                lese erklærlingen ved å <a id="link-to-erklæring" href="#">trykke her!</a>
+                lese erklærlingen ved å <a id="link-to-erklæring" href="tilgjengelighetserklaeringen.pdf">trykke her!</a>
             </p>
         </section>
     </main>
@@ -172,9 +188,9 @@
             <section class="følg_oss">
                 <h2>Følg Oss:</h2>
                 <div class="social-icons-footer">
-                    <a href="https://www.instagram.com/khalilmoha_/" aria-label="instagram" class="fa-brands fa-instagram footer-icons"></a>
-                    <a href="https://www.facebook.com/profile.php?id=100009105693009"  aria-label="facebook" class="fa-brands fa-facebook footer-icons"></a>
-                    <a href="https://twitter.com/Khalilmoha_" aria-label="twitter" class="fa-brands fa-twitter footer-icons"></a>
+                    <a href="https://www.instagram.com/khalilmoha_/"                   aria-label="Denne knappen sender brukeren til instagram konto"    class="fa-brands fa-instagram footer-icons"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100009105693009"  aria-label="Denne knappen sender brukeren til facebook konto"    class="fa-brands fa-facebook footer-icons"></a>
+                    <a href="https://twitter.com/Khalilmoha_"                          aria-label="Denne knappen sender brukeren til twitter konto"    class="fa-brands fa-twitter footer-icons"></a>
                 </div>
             </section>
             <section class="snarveier">

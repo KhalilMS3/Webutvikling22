@@ -1,11 +1,11 @@
 html{
     scroll-behavior: smooth;
+    letter-spacing: 1px;
 }
 body{
     background-color: #fff;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    word-break: keep-all;
 }
 
 
@@ -125,6 +125,7 @@ header section p{
     color: #000;
     font-size: 1.5rem;
     padding-top: 10px;
+    line-height: 1.5;
 }
 
 main{
@@ -173,7 +174,7 @@ main{
 .intro-section p{
     color: #30475E;
     font-size: 1.5rem;
-
+    line-height: 1.5;
 }
 
 .intro-section p a{
