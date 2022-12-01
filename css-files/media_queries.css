@@ -119,8 +119,16 @@
 /* artikler */
 .artikler{
     width: 70%;
-   
 }
+.row-title h3{
+    font-size: 1.5rem;
+}
+    /* analyse */
+.analyse-beskrivelse-div img{
+    width: 40%;
+    margin-left: 20px;
+}
+
 /* ---FOOTER--- */
     footer{
         grid-area: footer;
@@ -355,7 +363,11 @@
     .kontakt-card h3{
         font-size: 1.72rem;
     }
-
+    /* analyse */
+    .analyse-beskrivelse-div img{
+        width: 40%;
+        margin-left: 20px;
+    }
 
 /* ---FOOTER--- */
     footer{

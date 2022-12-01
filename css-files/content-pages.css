@@ -211,6 +211,18 @@ header section p{
     padding-top: 0;
     padding-bottom: 30px;
 }
+
+
+.analyse-beskrivelse-div img{
+    width: 20%;
+    margin-left: 20px;
+    
+    
+}
+.wave-analyse-header{
+    border-bottom: 2px solid #a43333 ;
+    width: fit-content;
+}
 .analyse_bilde{
     max-width: 100%;
     height: auto;
